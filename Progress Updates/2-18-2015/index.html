@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Student Planner</title>
+    <meta charset="utf-8">
+
+    <!--mobile-first design-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    
+    <!-- Google Maps API -->
+    <style type="text/css">
+      html, body, #map-canvas { height: 100%; margin: 0; padding: 0;}
+    </style>
+    <script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqPxLrxJ1xTBp7WqFjldjEGGjqVSI76Jo">
+    </script>
+    <script type="text/javascript">
+      function initialize() {
+        var mapOptions = {
+          center: { lat: 41.459364, lng: -72.808642}, // coords for the science center
+          zoom: 19
+          
+        //mapTypeId: google.maps.MapTypeId.SATELLITE
+        };
+          
+        var map = new google.maps.Map(document.getElementById('map-canvas'),
+            mapOptions);
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+    
+</head>
+
+<body>
+
+    <!-- in bootstrap, 2 css container classes: .container, .container-fluid; containers can't be nested.-->
+    
+    <div style="height: 80%;">
+        <div id="map-canvas">
+        <!-- here's the map-->
+    
+        </div>
+    </div>
+    
+    <div class="container">
+
+        <h1>Biology</h1>
+        <h4>Science Center</h4>
+        <p>Starts <strong>8:55 AM</strong></p>
+
+    </div>
+</body>    
+</html>
+

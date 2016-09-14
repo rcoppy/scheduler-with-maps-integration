@@ -1,0 +1,91 @@
+[
+{
+"name": "Science Center",
+"long": 41.459364, 
+"lat": -72.808642
+},
+
+{
+"name": "PMAC",
+"long": 41.458070, 
+"lat": -72.808548
+},
+
+{
+"name": "Lanphier Center",
+"long": 41.459416, 
+"lat": -72.809993
+},
+
+{
+"name": "Humanities",
+"long": 41.459393, 
+"lat": -72.813157
+},
+
+{
+"name": "Steele Hall", 
+"long": 41.458857, 
+"lat": -72.814053
+},
+
+{
+"name": "Dining Hall",
+"long": 41.458289, 
+"lat": -72.814002
+},
+
+{
+"name": "Library",
+"long": 41.458385, 
+"lat": -72.813173
+},
+
+{
+"name": "Dean's Row",
+"long": 41.457939, 
+"lat": -72.813477
+},
+
+{
+"name": "Health Center", 
+"long": 41.458134, 
+"lat": -72.815049
+},
+
+{
+"name": "Athletic Center",
+"long": 41.455125, 
+"lat": -72.809534
+},
+
+{
+"name": "Track", 
+"long": 41.455515, 
+"lat": -72.807388
+},
+
+{
+"name": "SAC",
+"long": 41.458778, 
+"lat": -72.809881
+},
+
+{
+"name": "Pool", 
+"long": 41.455998, 
+"lat": -72.811207
+},
+
+{
+"name": "Brownell", 
+"long": 41.459360, 
+"lat": -72.806968
+},
+
+{
+"name": "Archbold",
+"long": 41.458778, 
+"lat": -72.809881
+}
+]
